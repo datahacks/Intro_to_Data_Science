@@ -396,7 +396,7 @@ Files for multiple days are combined and cleaned.</p>
    Scipy.stats implementation of Mann-Whitney U-test returns one tailed P-value. So we will multiply it by 2 to get two-tailed P-value.</p>
 <p>P-Critical value used in this test 0.05.</p>
 <h3 id="1.2-Statistical-Test-Applicability">1.2 Statistical Test Applicability<a class="anchor-link" href="#1.2-Statistical-Test-Applicability">&#182;</a></h3><p>Mann-Whitney U-Test  tests null hypothesis that two samples come from same population. Also, one of the assumptions to use this test is that we have independence of observations for our datasets.</p>
-<p>Our dataset statify these assumptions. We will use this test by dividing complete dataset into two dataframes:
+<p>Our dataset statisfy these assumptions. We will use this test by dividing complete dataset into two dataframes:
    Entries with Rain and Entries without Rain
    And there will be no overlap in above datasets.</p>
 <h3 id="1.3-Statistical-Test-Results">1.3 Statistical Test Results<a class="anchor-link" href="#1.3-Statistical-Test-Results">&#182;</a></h3><p>Statistical Test Results for Mann-Whitney tests are below.</p>
@@ -573,7 +573,7 @@ P-value: 0.019309634413792565
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="2.3-Features-Selection-Rationale">2.3 Features Selection Rationale<a class="anchor-link" href="#2.3-Features-Selection-Rationale">&#182;</a></h3><p>Apart from rain, we selected meantempi,mintempi and maxtempi as features for our model. If temp is too high or low, people will  feel more comfortable riding subway.</p>
-<p>Hour is chose because if its office hours/rush hours ridership will be high.</p>
+<p>Hour is selected because if it is office hours/rush hours ridership will be high.</p>
 
 </div>
 </div>
@@ -678,7 +678,7 @@ dtype: float64
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="2.6-Goodness-of-Regression-Model">2.6 Goodness of Regression Model<a class="anchor-link" href="#2.6-Goodness-of-Regression-Model">&#182;</a></h3><p>Higher the R^2 value towards the 1, better the model fits the data.
-Our R^2 value is little lower side. Due categorical nature of data Linear model may not be better fit.</p>
+Our R^2 value is little lower side. Due to categorical nature of data Linear model may not be better fit.</p>
 
 </div>
 </div>
@@ -689,7 +689,7 @@ Our R^2 value is little lower side. Due categorical nature of data Linear model 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Section-3.-Visualization">Section 3. Visualization<a class="anchor-link" href="#Section-3.-Visualization">&#182;</a></h1><h3 id="3.1-Histogram-of-ENTRIESn_hourly-distribution">3.1 Histogram of ENTRIESn_hourly distribution<a class="anchor-link" href="#3.1-Histogram-of-ENTRIESn_hourly-distribution">&#182;</a></h3><p>Distribution for ENTRIESn_hourly ridership is plotted using matplotlib.pyplot.
- We can distribution is not normally distributed.</p>
+ We can see distribution is not normally distributed.</p>
 
 </div>
 </div>
